@@ -2,7 +2,8 @@
   background-color: #b8e8de;
   color: #2c535a;
   height: 100vh;
-  font-family: monospace;
+  /* font-family: monospace; */
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
