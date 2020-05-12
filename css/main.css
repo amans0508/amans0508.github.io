@@ -1,36 +1,33 @@
-.site-header {
-  background-color: #b8e8de;
-  color: #2c535a;
-  height: 100vh;
-  /* font-family: monospace; */
-  font-family: "Roboto", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-pic {
-  border-radius: 75%;
-  height: 200px;
-  width: 200px;
-  align-self: center;
-  box-shadow: #184c66 2px 5px 5px;
-}
-
 body {
+  font-family: "Montserrat", sans-serif;
   margin: 0;
+  background-color: #223131;
+  color: #08f7fe;
 }
 
-.course-link {
-  color: #2c535a;
-  text-decoration: none;
+* {
+  box-sizing: border-box;
 }
 
-.site-header-content {
-  margin: 10px;
+.container {
+  margin: 5em auto;
+  width: 80%;
 }
 
-a:hover {
-  cursor: pointer;
+h1 {
+  text-align: center;
+}
+
+.image-wrapper {
+  width: 50%;
+  padding-bottom: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+}
+
+.image-wrapper img {
+  position: absolute;
+  width: 100%;
 }
