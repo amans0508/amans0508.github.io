@@ -1,8 +1,12 @@
+html {
+  background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  background-color: #223131;
-  color: #08f7fe;
+  /* background-color: #223131; */
+  /* color: #08f7fe; */
 }
 
 * {
