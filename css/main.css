@@ -1,5 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+@media screen and (orientation: portrait) {
+  img.center {
+    max-width: 90%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  img.center {
+    max-height: 90%;
+  }
+}
+
 html {
   min-height: 100%;
   background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
@@ -79,10 +91,21 @@ nav ul li a:hover {
   display: none;
 }
 
-.preload {
-  width: 100px;
-  height: 100px;
-  position: fixed;
+img.center {
+  position: absolute;
+  max-width: 80%;
+  top: 10%;
+  left: 10%;
+  border-radius: 3px;
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.9); */
+}
+
+img.center:empty {
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
