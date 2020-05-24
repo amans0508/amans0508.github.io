@@ -125,6 +125,7 @@ textarea {
 
 .welcome-img img {
   width: 200%;
+  border: 3px solid var(--primary);
   border-radius: 33%;
 }
 
@@ -254,6 +255,7 @@ footer img {
 
   .welcome-img img {
     width: 100%;
+    border: 3px solid var(--primary);
     border-radius: 33%;
   }
 
