@@ -217,7 +217,7 @@ textarea {
 footer {
   padding: 30px 20px;
   background-color: var(--secondary);
-  background-image: url(./assets/footer_image.png);
+  background-image: url(./assets/travel.svg);
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: top center;
