@@ -49,7 +49,7 @@ li {
 }
 
 body {
-  background: var(--secondary);
+  /* background: var(--secondary); */
   overflow-x: hidden;
 }
 
@@ -151,10 +151,12 @@ textarea {
 
 .welcome-img {
   grid-column: 6/9;
+  display: grid;
+  align-self: center;
 }
 
 .welcome-img img {
-  width: 200%;
+  width: 100%;
   border: 3px solid var(--primary);
   border-radius: 33%;
 }
