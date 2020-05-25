@@ -1,9 +1,39 @@
+.sky {
+  /* position: absolute; */
+  /* width: 100%; */
+  background: #4b79a1; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #283e51,
+    #0a2342
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #283e51,
+    #0a2342
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -olinear-gradient(to top, #283e51, #0a2342);
+  /* height: 100vh; */
+}
+
+.stars {
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  /* width: 100%;
+  height: 100%;
+  display: block; */
+  background: url(http://www.script-tutorials.com/demos/360/images/stars.png)
+    repeat top center;
+  z-index: 0;
+}
+
 /* primary variables */
 :root {
   --primary: #ffc636;
-  /* --secondary: #0a0b5b; */
   --secondary: #003399;
-  /* --secondary: linear-gradient(to bottom, #3399ff 0%, #ff99ff 100%); */
 }
 
 /* reset */
@@ -164,7 +194,7 @@ textarea {
 
 #skills {
   padding: 30px 20px;
-  background: var(--secondary);
+  /* background: var(--secondary); */
 }
 
 #skillks h3 {
@@ -189,7 +219,7 @@ textarea {
 
 #contact {
   padding: 30px 30px 20px 20px;
-  background: var(--secondary);
+  /* background: var(--secondary); */
 }
 
 #contact h3,
@@ -217,7 +247,7 @@ textarea {
 
 footer {
   padding: 30px 20px;
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
   background-image: url(./assets/travel.svg);
   background-size: 40%;
   background-repeat: no-repeat;
