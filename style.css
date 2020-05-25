@@ -78,7 +78,8 @@ h1,
 h2,
 h3,
 h4 {
-  color: #dddbff;
+  /* color: #dddbff; */
+  color: var(--primary);
   font-weight: normal;
 }
 
@@ -199,7 +200,7 @@ textarea {
   /* background: var(--secondary); */
 }
 
-#skillks h3 {
+#skills h3 {
   text-align: center;
 }
 
